@@ -1,0 +1,160 @@
+.lightm {
+    background-color: aliceblue;
+    padding-top: 20px;
+}
+.body   {
+    text-align: center;
+}
+h1 {
+    margin-top: 70px;
+    text-align: center;
+    color:rgb(114, 104, 91);
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+button {
+    width: 100px;
+    height: 25px;
+    font-weight: bold;
+    color: rgb(114, 104, 91);
+    background-color: antiquewhite;
+}
+
+
+/*Multiplication table*/
+table {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    border-collapse: collapse;
+    table-layout: fixed;
+    
+}
+table, tr,td {
+    padding: 5px;
+    border: solid 2px rgb(85, 84, 84);
+}
+td {
+    width: 20px;
+}
+
+.even{
+    background-color: #c5f0f0;
+}
+.odd{
+    background-color: antiquewhite;
+    /* color: aliceblue; */
+
+}
+
+
+
+
+/*Multiplication table Dark Mode*/
+.dark-mode table, tr,td {
+    padding: 5px;
+    border: solid 2px rgb(85, 84, 84);
+    color: #333;
+}
+td {
+    width: 20px;
+}
+
+.even{
+    background-color: antiquewhite;
+}
+.odd{
+    background-color: aliceblue;
+    /* color: aliceblue; */
+
+}
+
+
+
+/*login*/
+.loginContainer {
+    text-align: center;
+}
+.loginBtn {
+    margin: 20px;
+    width: 100px;
+    height: 25px;
+    font-weight: bold;
+    color: #082e2e;
+    background-color: antiquewhite;
+}
+
+/*Signup*/
+.signupContainer {
+    text-align: center;
+}
+label {
+    display: block;
+}
+
+.signupBtn {
+    margin: 20px;
+    width: 100px;
+    height: 25px;
+    font-weight: bold;
+    color: #082e2e;
+    background-color: antiquewhite;
+}
+
+/* Dark mode */
+.dark-mode {
+    background-color: #333;
+    color: antiquewhite; 
+
+}
+.dark-mode h1 {
+    margin-right: 10px;
+    color: antiquewhite;
+}
+.dark-mode a {
+    color: antiquewhite;
+}
+.dark-mode button {
+    color: #333;
+    background-color: antiquewhite;
+}
+
+
+
+
+
+
+/* Navigation Bar */
+ul {
+    list-style-type: none; 
+    align-items: flex-start;
+
+}
+ul li{
+    display: inline-flex;
+    padding: 0;
+    margin-right: 20px;
+}
+
+.navBar {
+    display: inline-flex;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration-line: underline;
+}
+
+
+/* Custom */
+
+.custom {
+width: 70px;
+}
+
+
+
+
